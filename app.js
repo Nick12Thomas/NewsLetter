@@ -28,7 +28,7 @@ app.post("/", function(req,res){
       ]
     };
     var jsonData =JSON.stringify(data);
-    const url="https://us8.api.mailchimp.com/3.0/lists/82c60d889";
+    const url="https://us8.api.mailchimp.com/3.0/lists/82c60d8891";
     const options={
         method:"POST",
         auth:"Nikhil:07121d094177aec8a28aabffb4d94b14-us8"
